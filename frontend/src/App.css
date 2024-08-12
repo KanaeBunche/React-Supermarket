@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: center; /* Center items horizontally */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  gap: 10px; /* Adjust the spacing between items */
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px; /* Reduce margin to decrease space around each item */
+  flex: 1 1 150px; /* Adjust the minimum width as needed */
+}
+
+.item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.item h2 {
+  margin: 5px 0; /* Adjust margin for title */
+}
+
+.item p {
+  color: #555;
+  margin: 0; /* Remove default margin for price */
+}
